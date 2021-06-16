@@ -17,7 +17,7 @@ app.use("/newyork", require("../www/newyork/routes"));
 app.use(express.static(path.join(__dirname, '../www/main/public')));
 
 app.get('/', (req, res) => {
-  res.send('Missing index.html in /public');
+  res.send('Travelogue: Missing index.html in /public');
 })
 
 //--------
